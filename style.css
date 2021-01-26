@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+.main-div {
+    width: 60%;
+    height: 60%;
+    background-color: rgba(177, 177, 177, 0.5);
+    margin: 100px auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.heading {
+    margin: 20px 0 10px 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+.description {
+    font-size: 20px;
+    font-weight: 600;
+}
+.reverse-form {
+    display: block;
+    margin: 20px auto;
+    width: 90%;
+}
+.reverse-form input {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 20px;
+}
