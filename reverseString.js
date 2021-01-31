@@ -5,5 +5,3 @@ function reverseString(str) {
     }
     return reversed;
 }
-
-console.log(reverseString("Otabek G'anijonovich Qodirov"));

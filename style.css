@@ -39,7 +39,24 @@ body {
 .reverse-form input {
     display: block;
     width: 100%;
+    height: 30px;
     border-radius: 5px;
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 16px;
+}
+#string {
+    padding-left: 10px;
+    border: transparent;
+}
+#submitButton {
+    background-color: rgb(49, 187, 56);
+    color: white;
+    font-size: 25px;
+    height: 40px;
+    border: 1px solid black;
+}
+#result {
+    font-size: 40px;
+    color: white;
+    text-shadow: 3px 3px 5px pink;
 }

@@ -17,12 +17,24 @@
                 <input type="text" name="string" id="string" placeholder="So'z yoki gap kiriting" required>
             </div>
             <div class="reverse-form">
-                <input type="submit" value="ning teskarisi:">
-                <p class="result"></p>
+                <input type="submit" id="submitButton" value="ning teskarisi:">
+                <p id="result"></p>
             </div>
 
         </form>
     </div>
+
+    <script src="reverseString.js">
+    </script>
+    <script>
+        function clickListener(event) {
+            let inputString = document.getElementById("string");
+            let reversedString = reverseString(inputString.value);
+            document.getElementById("result").innerHTML = reversedString;
+            event.preventDefault();
+        }
+        document.getElementById("submitButton").addEventListener("click", clickListener);
+    </script>
 </body>
 
 </html>
